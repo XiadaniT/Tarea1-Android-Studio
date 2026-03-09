@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="20dp">
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1. CheckBox" android:textSize="22sp" android:textStyle="bold" android:layout_marginBottom="8dp"/>
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Permite al usuario seleccionar una o varias opciones de un conjunto." android:layout_marginBottom="16dp"/>
+
+    <CheckBox android:id="@+id/cbOpcion1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Me gusta programar" />
+    <CheckBox android:id="@+id/cbOpcion2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Quiero sacar 10" />
+
+    <Button android:id="@+id/btnVerificar" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Verificar selecciones" />
+    <TextView android:id="@+id/tvResultado" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="..." />
+</LinearLayout>
